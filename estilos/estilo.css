@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*FONTES*/
+
+@font-face {
+    font-family: 'Passion';
+    src: url('../fontes/PassionOne-Bold.ttf') format(truetype), url('../fontes/PassionOne-Regular.ttf') format(truetype), url('../fontes/PassionOne-Black.ttf') format(truetype);
+}
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url('../fontes/Sriracha.ttf.woff') format(truetype);
+}
+
+body {
+   
+    background-color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+header h1 {
+    font: normal 6.5em 'Passion';
+    font-weight: normal;
+}
+
+.maiusculo {
+    font: normal bold 1.5em 'Passion';
+}
+
+header p {
+    font: normal 1.2em Arial;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*MAIN*/
+
+main {
+    text-align: center;    
+}
+
+div {
+    padding: 40px 0px;
+}
+
+article {
+    padding: 40px 0px;
+}
+
+article.parte-branca {
+    padding-left: 30px;
+}
+
+p {
+    font:normal 3em 'Sriracha';
+    text-align: left;
+    text-indent: 20px;
+}
+
+div#paralax01 {
+    position: relative;
+    height: 110vh;
+    background-image: url('../imagens/background001.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+div#paralax02 {
+    position: relative;
+    height: 110vh;
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+article.texto {
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 600px;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    transform: translate(0%, -3%);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    font: normal 1em Arial;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
