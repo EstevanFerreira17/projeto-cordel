@@ -18,7 +18,7 @@
 }
 
 body {
-   
+    height: 98vh;
     background-color: white;
 }
 
@@ -30,23 +30,21 @@ header {
 }
 
 header h1 {
-    font: normal 6.5em 'Passion';
+    font-family:  'Passion';
+    font-variant: small-caps;
     font-weight: normal;
-}
-
-.maiusculo {
-    font: normal bold 1.5em 'Passion';
+    font-size: 10vh;
 }
 
 header p {
-    font: normal 1.2em Arial;
+    font: normal 1em Arial;
     text-align: center;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -55,16 +53,13 @@ a:hover {
 
 /*MAIN*/
 
-main {
-    text-align: center;    
-}
 
 div {
     padding: 40px 0px;
 }
 
 article {
-    padding: 40px 0px;
+    padding: 5vh;
 }
 
 article.parte-branca {
@@ -72,40 +67,35 @@ article.parte-branca {
 }
 
 p {
-    font:normal 3em 'Sriracha';
+    font:normal 3.5vw 'Sriracha';
     text-align: left;
-    text-indent: 20px;
 }
 
 div#paralax01 {
-    position: relative;
-    height: 110vh;
     background-image: url('../imagens/background001.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
    
 }
 
 div#paralax02 {
-    position: relative;
-    height: 110vh;
     background-image: url('../imagens/background002.jpg');
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
 }
 
 article.texto {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 600px;
-    position: absolute;
-    top: 10%;
-    left: 3%;
-    transform: translate(0%, -3%);
+    margin-left: 30px;
+    padding: 20px;
 }
 
 footer {
