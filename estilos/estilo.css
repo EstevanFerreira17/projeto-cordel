@@ -72,7 +72,6 @@ p {
 }
 
 div#paralax01 {
-    height: 98vh;
     background-image: url('../imagens/background001.jpg');
     background-position: center center;
     background-size: cover;
@@ -83,7 +82,6 @@ div#paralax01 {
 }
 
 div#paralax02 {
-    height: 98vh;
     background-image: url('../imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
